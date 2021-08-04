@@ -1,0 +1,83 @@
+.contenedor {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    width: 640px;
+    margin: 103px auto 0px auto;
+}
+
+.logo {
+    margin-bottom: 60px;
+}
+
+.ilustracion {
+margin-top: 80px;
+width: 100%;
+}
+
+.titulo {
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.span {
+    color: hsl(209, 33%, 12%);
+    font-weight: 700;
+}
+
+.subtitulo {
+    font-weight: 300;
+    color: hsl(209, 33%, 12%);
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.formulario {
+    border-radius: 30px;
+    border: 2px solid #DDD;
+    width: 360px;
+    padding: 20px;
+    font-size: 17px;
+    margin-right: 16px;
+}
+
+.formulario::placeholder {
+    color: #DDD;
+}
+
+.boton {
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    padding: 20px 0px 20px 0px;
+    width: 198px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.copi {
+    font-size: 12px;
+    margin-bottom: 90px;
+    margin-top: 25px;
+    color: grey
+}
+
+.redes {
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+    margin: 0 auto 30px auto;
+}
+
+.redes i {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #DDD;
+    border-radius: 50%;
+    line-height: 30px;
+    color: hsl(223, 87%, 63%);
+}
